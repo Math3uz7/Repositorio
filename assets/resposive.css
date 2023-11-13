@@ -1,0 +1,185 @@
+@media only screen and (max-width:1300px) and (min-width:800px) {
+    img {
+        width: 230px;
+        height: 230px;
+        margin-right: -130px;
+        margin-bottom: 400px;
+    }
+
+    #faixa {
+        width: 200px;
+    }
+
+    #faixa2 {
+        width: 200px;
+    }
+
+    hr {
+        width: 720px;
+    }
+
+    #objetivo p {
+        width: 400px;
+    }
+}
+
+
+
+@media only screen and (max-width:790px) and (min-width:500px) {
+    #faixa {
+        width: 200px;
+    }
+
+    html {
+        width: 854px;
+    }
+
+    img {
+        width: 200px;
+        height: 200px;
+        margin-right: -200px;
+        margin-bottom: 400px;
+    }
+
+    #faixa2 {
+        width: 200px;
+    }
+
+    hr {
+        width: 520px;
+    }
+}
+
+@media only screen and (max-width:490px) and (min-width:400px) {
+
+    #content,
+    #content2 {
+        width: 250px;
+        margin-left: 604px;
+    }
+
+    #objetivo p {
+        width: 400px;
+    }
+
+    img {
+        margin-right: -600px;
+    }
+
+    h1,
+    .ti {
+        margin-left: 50px;
+  
+    }
+}
+
+@media only screen and (max-width:390px) and (min-width:350px) {
+
+    #content,
+    #content2 {
+        width: 250px;
+        margin-left: 604px;
+    }
+
+    #objetivo p {
+        width: 400px;
+    }
+
+    img {
+        margin-right: -600px;
+    }
+
+    #faixa2 {
+        margin-top: 100px;
+        height: 483px;
+        margin-top: -300px;
+    }
+
+    h1,
+    .ti {
+        margin-left: 30px;
+    }
+
+    hr {
+        width: 500px;
+    }
+}
+
+@media only screen and (max-width:320px) and (min-width:320px) {
+
+    h1,
+    .ti {
+        font-size: 15px;
+        width: 200px;
+    }
+
+    h2 {
+        width: 100px;
+    }
+
+
+    #content,
+    #content2 {
+        width: 250px;
+        font-size: 15px;
+        margin-left: 604px;
+    }
+
+    main {
+        width: 300px;
+    }
+
+    h1,
+    .ti {
+        margin-left: 10px;
+
+    }
+
+    #formação,
+    #objetivo,
+    #habilidades,
+    #cursos {
+        margin-left: 17px;
+        margin-top: 50px;
+        width: 150px;
+    }
+
+    #formação h2,
+    #formação p,
+    #objetivo h2,
+    #objetivo p,
+    #habilidades ul li,
+    #habilidades h2,
+    #cursos h2,
+    #cursos ul li {
+        font-size: 15px;
+        width: 200px;
+        margin-left: 50px;
+    }
+
+    #cursos ul li {
+        width: 130px;
+    }
+
+    ul {
+        width: 130px;
+    }
+
+    #formação p {
+        width: 190px;
+    }
+
+    #objetivo p {
+        width: 180px;
+    }
+
+    #faixa2,
+    #faixa {
+        display: none;
+    }
+
+    hr {
+        width: 100px;
+        margin-left: 90px;
+    }
+}
