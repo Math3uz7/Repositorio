@@ -82,7 +82,7 @@ hr{
 }
 
 
-@media only screen and (max-width:500px) and (min-width:420px) {
+@media only screen and (max-width:500px) and (min-width:410px) {
     h1,
     .ti {
         font-size: 25px;
@@ -159,7 +159,7 @@ hr{
     }
 }
 
-@media only screen and (max-width:400px) and (min-width:390px) {
+@media only screen and (max-width:410px) and (min-width:390px) {
 
     #center{
         margin-left: 10px;
