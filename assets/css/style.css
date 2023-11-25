@@ -64,6 +64,11 @@ a{
     text-decoration: none;
 }
 
+#redes{
+    width: 100px;
+    height: 100px;
+}
+
 svg{
     width: 45px;
     height: 45px;
