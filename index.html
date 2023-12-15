@@ -5,17 +5,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/resposive.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="shortcut icon" href="assets/img/logoOFC.jpeg" type="image/x-icon">
     <title>Meu Portifolio</title>
 </head>
 
 <body>
     <main>
-        <button id="increaseBtn">+</button>
-        <button id="decreaseBtn">-</button>
         <h1>MATHEUS PRUDENCIO</h1>
         <h2 class="ti">T.I</h2>
+        
         <div id="redes">
+            
             <a href="https://github.com/Math3uz7">
                 <svg viewBox="0 0 128 128">
                     <g fill="#181616">
@@ -40,8 +41,6 @@
                 </svg>
             </a>
         </div>
-
-
         <div id="content">
             <img src="assets/img/foto.jpeg" alt="Matheus menino com terno azul com celular na mão">
             <div id="faixa"></div>
@@ -58,7 +57,12 @@
             <hr>
             <div id="formação">
                 <h2>FORMAÇÃO</h2>
-                <p class="text">Faculdade Fatec Sistemas para Internet Inicio 02/2023 Conclusão em 12/2025</p>
+                <ul>
+                    <li>Faculdade: Fatec</li>
+                    <li>Curso: Sistemaas para Internet</li>
+                    <li>Inicio: 01/02/2023</li>
+                    <li>Termino: 01/012/2023</li>
+                </ul>
             </div>
             <hr>
             <div id="cursos">
@@ -67,7 +71,7 @@
                     <li>JavaScript: Udemy</li>
                     <li>Analise de dados: Linkedin</li>
                     <li>Ingles</li>
-                    <li>Excel: Start- Area administrativa</li>
+                    <li>Excel: Área administrativa</li>
                 </ul>
             </div>
             <hr>
@@ -83,30 +87,13 @@
                     <li>Ingles</li>
                 </ul>
             </div>
-    </main>
-    <div id="content2">
-        <div id="faixa2"></div>
-    </div>
-    </div>
 
-    <div vw class="enabled">
-        <div vw-access-button class="active"></div>
-        <div vw-plugin-wrapper>
-            <div class="vw-plugin-top-wrapper"></div>
-        </div>
-    </div>
-    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
-    <script>
-        new window.VLibras.Widget({
-            rootPah: '/app',
-            personalization: 'https://vlibras.gov.br/config/default_logo.json',
-            opacity: 0.5,
-            position: 'L',
-            avatar: 'random',
-        });
-    </script>
+            <div id="content2">
+                <div id="faixa2"></div>
+            </div>
+    </main>
+
 
 </body>
-<script src="assets/js/js.js"></script>
 
 </html>
